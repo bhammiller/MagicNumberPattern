@@ -4,7 +4,7 @@ public class MagicNumberPattern {
     public String magicNumbering(Integer input_number){
         String output = "" + input_number;
         if (input_number <= 0) {
-            output = "Why did you put in a number less than 1?";
+            output = "Why did you put in a number less than 1?<br/>Try again by making the number greater than 1";
         }
         else{
             while (input_number != 1) {
